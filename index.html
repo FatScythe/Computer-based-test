@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="css/bootstrap.min.css">
+    <link rel = "stylesheet" href="styles.css">
+    <title>CBT</title>
+</head>
+<body>
+    <!--- Top Section -->
+    <div class="header bg-dark">
+        <div class="container text-white text-center py-5">
+            <h1>CBT</h1>
+        </div>  
+    </div>
+
+    <!--Result Section-->
+    <div id="result" class="py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>You score is:<span class="text-primary display-4 p-3 result-score">0%</span></p>
+        </div>
+    </div>
+
+    <!-- Quiz Section -->
+    
+    <div class="quiz bg-info">
+        <div class="container">
+            <h2 class="text-light display-4 container-fluid">Part 1: Html Question</h2>
+            <form class="dev-quiz">
+                <div class="">
+
+                    <div class="container text-white">
+
+                        <p class="h3 text-white-50 pt-4">Question 1</p>
+                        <!--Question 1-->
+                        <p class="lead py-1">Which is the full meaning of html?</p>
+                        <div class="form-check">
+                            <input type="radio" name = "q1" value = "A" checked>
+                            <label>Hyper text markdown language</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio" name = "q1" value = "B">
+                            <label>Hyper text markup language</label>
+                        </div>
+
+                    <!--Question 2-->
+                        <p class="h3 text-white-50 pt-4">Question 2</p>
+                        <p class="lead py-1">One of the following is the CORRECT image tag syntax?</p>
+                        <div class="form-check">
+                            <input type="radio" name = "q2" value = "A" checked>
+                            <label>"img src="..." alt="...""</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio" name = "q2" value = "B">
+                            <label>"img href="..." alt="..."</label>
+                        </div>
+
+                    
+                    <h2 class="text-light pt-4 display-4 container-fluid">Part 2: CSS Question</h2>
+                    <!--Question 3-->
+                    <div class="container text-white">
+                        <p class="h3 text-white-50 pt-4">Question 3</p>
+                        <p class="lead py-1">Which is the full meaning of CSS?</p>
+                        <div class="form-check">
+                            <input type="radio" name = "q3" value = "A" checked>
+                            <label>Cascading Style Sheets</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio" name = "q3" value = "B">
+                            <label>Cascading Style Sheet</label>
+                        </div>
+
+                  <!--Question 4-->
+                        <p class="h3 text-white-50 pt-4">Question 4</p>
+                        <p class="lead py-1">One of the following is the CORRECT link tag syntax for CSS?</p>
+                        <div class="form-check">
+                            <input type="radio" name = "q4" value = "A" checked>
+                            <label>"link rel="stylesheet" href="...""</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio" name = "q4" value = "B">
+                            <label>"link rel="stylesheet" src="...""</label>
+                        </div>
+
+                </div><br><br>
+
+                <button type="submit" class="btn btn-success">Submit</button><br><br>
+            </form>
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
